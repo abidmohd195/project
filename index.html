@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stickyNotes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<!-- <style>
+    *{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+       width: 100%;
+       height: 100%;
+    }
+    #container{
+        width: 100%;
+        height: 100%;
+        text-decoration-color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 10px ;
+        border-radius: 5px;
+        border-color: green;
+        border-style: dashed;
+    }
+    }
+    #notes{
+        margin: 10px 10px ;
+        border: 10px ;
+        border-radius: 5px;
+        border-color: black;
+        border-style: dashed;
+    }
+</style> -->
+<body>
+    <div id="container" style="background-color: grey;text-color:blue ; text-align: center;">Project Sticky Notes
+        <div id="notes">
+            <div ">
+                <input type="text" name="" id="input" placeholder="Title">
+                <span><input type="color" name="" id="color"></span>
+            </div>
+                <div class="textarea">
+                    <textarea name="" id="text" cols="30" rows="10" placeholder="Take a note..."></textarea>
+                    <button id="add">Add Note</button>
+                </div>
+                
+            
+        </div>
+        <div id="bottom">
+            
+                </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
